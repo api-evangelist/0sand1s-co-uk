@@ -1,4 +1,4 @@
-# 0sand1s-co-uk
+# 0s and 1s
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-0sand1s-co-uk is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://0sand1s.co.uk/
+0s and 1s provides free CIS (Construction Industry Scheme) software for UK contractors, offering tools to verify subcontractors, record payments, file CIS300 returns, send statements, and calculate deductions and penalties. The platform runs on a free API and MCP server, integrates with HMRC data, and is operated by Voll Studios Ltd. It aims to simplify contractor payroll compliance and reporting.
+
+**Areas:** Construction · Payroll · Tax · UK · Software · CIS
+
+## 0s and 1s on APIs.io
+
+Everything profiled for 0s and 1s is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/0sand1s-co-uk/](https://apis.io/providers/0sand1s-co-uk/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [0s and 1s CIS API](https://apis.io/apis/0sand1s-co-uk/0sand1s-co-uk-cis-api/) — The CIS API from 0s and 1s — 7 operation(s) for cis.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [0Sand1S Co Uk Agentic Access](https://apis.io/agentic-access/0sand1s-co-uk/0sand1s-co-uk-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [ToolResponse](https://apis.io/schemas/0sand1s-co-uk/0sand1s-co-uk-tool-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [0Sand1S Co Uk Context](https://apis.io/jsonld/0sand1s-co-uk/0sand1s-co-uk-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [0Sand1S Co Uk Openapi Overlay](https://apis.io/overlays/0sand1s-co-uk/0sand1s-co-uk-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [0s and 1s API Rules](https://apis.io/rules/0sand1s-co-uk/0sand1s-co-uk-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [0Sand1S Co Uk Authentication](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-authentication/)
+- [0Sand1S Co Uk Domain Security](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-domain-security/)
+- [0Sand1S Co Uk Vulnerability Disclosure](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [0Sand1S Co Uk Scopes](https://apis.io/scopes/0sand1s-co-uk/0sand1s-co-uk-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [0Sand1S Co Uk Plans Pricing](https://apis.io/plans/0sand1s-co-uk/0sand1s-co-uk-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [0Sand1S Co Uk Rate Limits](https://apis.io/rate-limits/0sand1s-co-uk/0sand1s-co-uk-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://0sand1s.co.uk/)
+- [Documentation](https://0sand1s.co.uk/developers)
+- [Getting started](https://0sand1s.co.uk/guides/free-cis-software)
+- [API reference](https://0sand1s.co.uk/api/v1/openapi.json)
+- [Pricing](https://0sand1s.co.uk/pricing)
+- [Support](https://0sand1s.co.uk/contact)
+- [Security](https://0sand1s.co.uk/security)
+- [Terms of service](https://0sand1s.co.uk/terms)
+- [Privacy policy](https://0sand1s.co.uk/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.7** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 29.5 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 63.7 |
+
+**Agent readiness 43.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 34.3** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/0sand1s-co-uk/](https://apis.io/providers/0sand1s-co-uk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 0s and 1s: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/0sand1s-co-uk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
