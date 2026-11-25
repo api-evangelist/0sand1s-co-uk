@@ -66,7 +66,7 @@
 
 0s and 1s provides free CIS (Construction Industry Scheme) software for UK contractors, offering tools to verify subcontractors, record payments, file CIS300 returns, send statements, and calculate deductions and penalties. The platform runs on a free API and MCP server, integrates with HMRC data, and is operated by Voll Studios Ltd. It aims to simplify contractor payroll compliance and reporting.
 
-**Areas:** Construction · Payroll · Tax · UK · Software · CIS
+**Areas:** Construction · Payroll · Tax · United Kingdom · Software · CIS
 
 ## 0s and 1s on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for 0s and 1s is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [0sand1s-co-uk-mcp.yml](https://apis.io/servers/0sand1s-co-uk/0sand1s-co-uk-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [0Sand1S Co Uk Agentic Access](https://apis.io/agentic-access/0sand1s-co-uk/0sand1s-co-uk-agentic-access/)
+- [0s and 1s Agentic Access](https://apis.io/agentic-access/0sand1s-co-uk/0sand1s-co-uk-agentic-access/)
 
 #### JSON Schema (1)
 
@@ -102,7 +108,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [0Sand1S Co Uk Openapi Overlay](https://apis.io/overlays/0sand1s-co-uk/0sand1s-co-uk-openapi-overlay/)
+- [0s and 1s Openapi Overlay](https://apis.io/overlays/0sand1s-co-uk/0sand1s-co-uk-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -114,27 +120,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [0Sand1S Co Uk Authentication](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-authentication/)
-- [0Sand1S Co Uk Domain Security](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-domain-security/)
-- [0Sand1S Co Uk Vulnerability Disclosure](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-vulnerability-disclosure/)
+- [0s and 1s Authentication](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-authentication/)
+- [0s and 1s Domain Security](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-domain-security/)
+- [0s and 1s Vulnerability Disclosure](https://apis.io/security/0sand1s-co-uk/0sand1s-co-uk-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [0Sand1S Co Uk Scopes](https://apis.io/scopes/0sand1s-co-uk/0sand1s-co-uk-scopes/)
+- [0s and 1s Scopes](https://apis.io/scopes/0sand1s-co-uk/0sand1s-co-uk-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [0Sand1S Co Uk Plans Pricing](https://apis.io/plans/0sand1s-co-uk/0sand1s-co-uk-plans-pricing/)
+- [0s and 1s Plans Pricing](https://apis.io/plans/0sand1s-co-uk/0sand1s-co-uk-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [0Sand1S Co Uk Rate Limits](https://apis.io/rate-limits/0sand1s-co-uk/0sand1s-co-uk-rate-limits/)
+- [0s and 1s Rate Limits](https://apis.io/rate-limits/0sand1s-co-uk/0sand1s-co-uk-rate-limits/)
 
 ## Where to find this API
 
@@ -152,23 +158,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.7** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 53.2** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 55.6 |
-| Contract governance | 70.9 |
-| Operational transparency | 29.5 |
+| Discoverability | 81.7 |
+| Contract quality | 58.7 |
+| Contract governance | 19.7 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 49.3 |
-| Access clarity | 63.7 |
+| Access clarity | 63.8 |
 
-**Agent readiness 43.5** — agent-ready (gated down from agent-native)
+**Agent readiness 35.7** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -178,7 +184,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -188,6 +194,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 34.3** — Employment & Payroll
 
